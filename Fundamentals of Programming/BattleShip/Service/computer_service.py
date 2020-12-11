@@ -131,7 +131,7 @@ class ComputerService(PlayerService):
         depending of the square's probability value. 
         Hunt mode does 3 things: -> reinitialize's the probability grid with 0's.
                                  -> update's the probability grid with values depending on enemy grid.
-                                 -> Get's the position of the square that has the bigger probability.
+                                 -> Gets the position of the square that has the bigger probability.
     '''
     def __hunt_mode(self):
         self._probability_grid = self.__create_probability_grid()
@@ -142,7 +142,7 @@ class ComputerService(PlayerService):
     '''
         Track mode means that in the previous round we had a HIT. So we found a ship. In squares_stack we have the
         positions of the neighbour's squares of the square that was HIT. We take the last element from this stack and
-        consider it as the present targeted square. If the squares from the stack are no longer available for targeting
+        consider it as the current targeted square. If the squares from the stack are no longer available for targeting
         we return a position 0,0.
     '''
     def __track_mode(self):
