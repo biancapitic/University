@@ -1,0 +1,2 @@
+class HamurabiException(Exception):
+    pass
