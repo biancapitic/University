@@ -1,0 +1,7 @@
+1, Bianca
+2, Ana
+3, Ioana
+4, Adi
+5, Filip
+6, Manu
+7, Andreea
