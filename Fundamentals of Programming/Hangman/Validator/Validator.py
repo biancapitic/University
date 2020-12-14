@@ -4,7 +4,7 @@ from Exceptions.Errors import HangmanException
 class Validator:
 
     @staticmethod
-    # checks if a sentence is valid and can be added to the sentences list
+    # checks if a sentence is valid and if it can be added to the sentences list
     def validate_sentence(sentences_list, sentence):
         # sentence is a list of words
         if len(sentence) < 1:
