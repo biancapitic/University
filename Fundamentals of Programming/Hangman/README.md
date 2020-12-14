@@ -6,4 +6,4 @@ The application lets you to:
 - play the game;
 - stop the application;
 
-It is a console based application that has a layered architecture.
+It is a console based application that has a layered architecture and uses PyUnit tests.
