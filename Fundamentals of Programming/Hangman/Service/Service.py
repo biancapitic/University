@@ -17,8 +17,7 @@ class GameService:
         return self._chosen_sentence.sentence_hangman_style()
 
     '''
-        The function returns the word "hangman" but completed with the number of letters equal to the number 
-        of mistakes of the user.
+        The function returns the word "hangman" but completed with the number of letters equal to the number of mistakes of the user.
     '''
     def get_hangman_game_word(self):
         return self._hangman_game_word
@@ -54,7 +53,7 @@ class GameService:
         return "continue"
 
     '''
-        The function checks if the letter chosen by the player it's ok or not and makes changes in conformity with that.
+        The function checks if the letter chosen by the player is ok or not, and makes changes in conformity with that.
         If the game is over it returns the appropriate message.
     '''
     def play_game(self, chosen_letter):
