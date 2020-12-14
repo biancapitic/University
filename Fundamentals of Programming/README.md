@@ -1,2 +1,2 @@
 # Fundamentals of Programming (Python)
-Here I have some projects implemented in python.
+Here I have projects implemented in python.
