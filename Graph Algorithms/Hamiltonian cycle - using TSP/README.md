@@ -8,3 +8,5 @@
  - add / remove a vertex;
  - save the graph to a text file;
  - copy the graph;
+ 
+ The application has a **layered architecture**.
