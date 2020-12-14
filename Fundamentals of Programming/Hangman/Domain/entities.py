@@ -7,8 +7,8 @@ class Sentence:
         self._sentence_status = []
         self.__init_sentence(sentence)
     '''
-    The function initializes the sentence_status list. The sentence_status list is a list which contains a 0 or a 1 
-    for each letter from the sentence; 0 if the letter wan't discovered yet, 1 otherwise
+    The function initializes the sentence_status list. The sentence_status list is a list which contains a 0 or a 1 for each letter from the sentence; 
+    0 if the letter wan't discovered yet, 1 otherwise.
     '''
     def __init_sentence(self, sentence):
         appeared_letters = []
@@ -57,8 +57,7 @@ class Sentence:
         return sentence
 
     '''
-        The function puts the value 1 in the sentence_status list wherever at the same position in the sentence is the
-        same letter as the one given as a parameter.
+        The function puts the value 1 in the sentence_status list wherever at the same position in the sentence is the same letter as the one given as a parameter.
     '''
     def change_status_of_some_letter(self, letter):
         for word_index in range(0, len(self._sentence)):
@@ -67,8 +66,7 @@ class Sentence:
                     self._sentence_status[word_index][letter_index] = 1
 
     '''
-        The function checks if the sentence is fully guessed or not. If in the status list are only values of 1
-        it means that the sentence is fully guessed.
+        The function checks if the sentence is fully guessed or not. If in the status list are only values of 1 it means that the sentence is fully guessed.
     '''
 
     def check_sentence_status(self):
