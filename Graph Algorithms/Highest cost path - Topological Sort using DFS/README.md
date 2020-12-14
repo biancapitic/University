@@ -5,7 +5,7 @@ Write a program that, given a graph with costs, does the following:
 - if it is a DAG, finds a highest cost path between two given vertices, in O(m+n).
 
 The requirement is solved on my implementation of a directed graph.
-The application implements also other operations:
+The application implements offers also other operations:
 - generate a random graph;
 - add / remove an edge;
 - add / remove a vertex;
