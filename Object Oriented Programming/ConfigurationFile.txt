@@ -1,0 +1,3 @@
+repository=file
+repository_path=repository.txt
+watch_list_path=watch_list.html
