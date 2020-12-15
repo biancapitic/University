@@ -8,3 +8,5 @@ These projects were done as requirements to complete my Bachelor's degree in Com
 - [Graph Algorithms (Python)](https://github.com/biancapitic/University/tree/main/Graph%20Algorithms)
 
 ## Year 2
+- [Databases (SQL)](https://github.com/biancapitic/University/tree/main/Databases)
+- [Advanced Programming Methods (Java)](https://github.com/biancapitic/University/tree/main/Advanced%20Programming%20Methods)
