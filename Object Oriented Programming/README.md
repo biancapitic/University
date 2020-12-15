@@ -15,5 +15,6 @@ The project has the following functionalities:
   - filter watch list;
   - open watch list in TableView (a new widget with the watch list as a table is opened)
   - open the watch list in a HTML file;
+- I implemented my own exceptions;
 
 The application uses the **Observer pattern** and the **MVC design pattern**.
