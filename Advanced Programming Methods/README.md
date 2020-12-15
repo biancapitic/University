@@ -1,4 +1,4 @@
-# Toy Language Interpretor
+# Toy Language Interpreter
 
 This project is done in **Java** and it implements an interpretor for a toy language. 
 It is an ongoing project implemented using **Model-View-Controller design pattern and layered architecture pattern**. 
