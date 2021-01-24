@@ -6,7 +6,7 @@ The application contains a list of Recordings(title, location, timeOfCreation, t
 The project has the following functionalities:
 - it has 2 modes: mode A and mode B
 - mode A:
-  - CRUD operations fro recordings;
+  - CRUD operations for recordings;
   - list regordings;
   - undo / redo operations;
 - mode B:
